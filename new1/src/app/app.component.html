@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <h4>Form 1</h4>
+    <style>
+      label{
+        font-weight: bold;
+      }
+       html{
+         background-color:blanchedalmond;
+         background-image:url("https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?size=626&ext=jpg");
+       }
+      body{
+        margin-left:450px;
+       
+      }
+      input{
+        background-color:lightgray;
+      }
+      .radio{
+        filter: green;
+      }
+      div{
+        padding-left: 200px;
+      }
+      fieldset{
+        width: 300px;
+        padding: 50px;
+        border: 5px solid gray;
+        margin: 0px;
+      }
+        .hi{
+          width: 350px;
+          padding-left: 20px;
+          padding-top:7px;
+          height:50px;
+          border: 5px solid gray;
+          margin: 0px;
+        }
+        </style>
+  </head>
+  <body>  
+    
+    <form>
+      <fieldset>
+      <label>District Name </label>
+      <label><input type="text" name="District Name"  required></label><br><br>
+      <label>Area (sq.mt)  </label>
+      <label><input type="number" name="Area "  required></label><br><br>
+     <label>Population</label>
+     <label><input type="text" name="Population"  required></label><br><br><br>
+      <div><button input type="submit">Save</button></div><br><br>
+      <fieldset class="hi" >
+      <h3>Biggest District(Area wise)</h3>
+      <input type="radio"  id="city" name="gender" value="male">
+      <label for="male">Chennai  </label>
+      <input type="radio" id="city" name="gender" value="male">
+      <label for="male">Coimbatore  </label>
+      <input type="radio" id="city" name="gender" value="male">
+      <label for="male">Salem  </label>
+      </fieldset>
+			<br><br>
+      <fieldset class="hi">
+      <h3>Highly populated District</h3>
+      <input type="radio" id="city" name="gen" value="male">
+      <label for="male">Chennai</label>
+      <input type="radio" id="city" name="gen" value="male">
+      <label for="male">Coimbatore</label>
+      <input type="radio" id="city" name="gen" value="male">
+      <label for="male">Salem</label>
+      </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</html>
